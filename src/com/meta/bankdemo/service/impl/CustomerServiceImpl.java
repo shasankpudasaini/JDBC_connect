@@ -1,13 +1,15 @@
 package com.meta.bankdemo.service.impl;
 
 import com.meta.bankdemo.model.Customer;
+import com.meta.bankdemo.service.CustomerService;
 import com.meta.bankdemo.service.GenericService;
 
 import java.util.List;
 
-public class CustomerServiceImpl implements GenericService<Customer> {
+public class CustomerServiceImpl implements GenericService<Customer> , CustomerService {
     @Override
     public boolean create(Customer customer) {
+
         return false;
     }
 
@@ -18,6 +20,11 @@ public class CustomerServiceImpl implements GenericService<Customer> {
 
     @Override
     public List<Customer> findAll() {
+        return null;
+    }
+
+    @Override
+    public Customer findCustomeByMobileNumber(String mobileNumber) {
         return null;
     }
 }

@@ -1,0 +1,7 @@
+
+
+========================
+Now make Db package with a class containing everything for database connection
+
+=======================================
+Go to the side plus sign where databas can be created , there you can find the connection url
