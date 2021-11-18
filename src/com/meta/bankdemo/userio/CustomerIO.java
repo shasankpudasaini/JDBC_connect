@@ -12,10 +12,10 @@ public class CustomerIO extends BaseIO{
             customer.setFullname(read("fullname"));
             customer.setMobileNumber(read("mobile number "));
             customer.setEmailAddress(read("email address"));
-            customer.setDateOfBirth(read("Date of birth"));
-            customer.setPremium(Boolean.parseBoolean(read("premium true or false ")));
-            customer.setIdType(Integer.parseInt(read("ID Type ")));
-            customer.setIdName(read("ID Name "));
+            customer.setDateOfBirth(read("Date of birth in pattern yyyy-mm-dd"));
+            customer.setPremium(Boolean.parseBoolean(read("premium [true or false] ")));
+            customer.setIdType(Integer.parseInt(read("ID Type [Integer value]")));
+            customer.setIdName(read("ID Name: "));
             return customer;
 
         } catch (Exception ex) {

@@ -8,7 +8,7 @@ public class BaseIO {
     BufferedReader bufferedReader = new BufferedReader((new InputStreamReader(System.in)));
 
     public void display(String message) {
-        System.out.println("----------------");
+        System.out.println("-------------------------------");
         System.out.println(message);
     }
 

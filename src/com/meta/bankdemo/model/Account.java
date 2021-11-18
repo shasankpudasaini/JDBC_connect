@@ -10,7 +10,7 @@ public class Account {
     private String accountType;
     private Customer customerId;
 
-    public Account() {
+    public Account() {71
     }
 
     public Account(Integer id, String accountNumber, String openDate, String closeDate, Double interestAccured, Double totalBalance, String accountType, Customer customerId) {

@@ -4,7 +4,7 @@ import com.meta.bankdemo.userio.BaseIO;
 
 public class Menu extends BaseIO {
     public Menu() {
-        System.out.println("********* Welcome to Simple Application ");
+        display("********* Welcome to Simple Application ");
        boolean status = true;
         while(status) {
             display("1 Customer Section");
@@ -24,10 +24,10 @@ public class Menu extends BaseIO {
                     break;
                 case 3:
                     status = false;
-                    display("****** Come back ***********");
+                    display("****** Thanks for using Simple Application **********");
                     break;
                 default:
-                    display("Invalid option ");
+                    display("Invalid choice , Try again ");
             }
         }
     }
